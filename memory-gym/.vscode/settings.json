@@ -1,0 +1,27 @@
+{
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+
+  // to enable sort imports on save
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  // to add environment vars while opening a new vscode terminal (name:val)
+  "terminal.integrated.env.linux": {
+    "DJANGO_ENV": "DEV"
+  },
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "python.analysis.autoFormatStrings": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.completeFunctionParens": true,
+  "python.analysis.diagnosticMode": "workspace",
+  "python.analysis.importFormat": "relative",
+  "python.analysis.inlayHints.callArgumentNames": "partial",
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.inlayHints.variableTypes": false,
+  "python.createEnvironment.trigger": "prompt",
+  "python.languageServer": "Pylance",
+
+}

@@ -1,0 +1,6 @@
+{
+    "beta": 100,
+    "learning_rate": 0.0003,
+    "n_batches": 4,
+    "optimizer": "AdamW"
+}
